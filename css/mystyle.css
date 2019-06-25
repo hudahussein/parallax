@@ -736,9 +736,6 @@ body{
     .sec3{
         height: auto;
     }
-    .sec3 .counter-container{
-        padding: 50px;
-    }
     .sec3 .counter-container span{
         display:block;
         width: 100%;
