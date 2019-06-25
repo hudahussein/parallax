@@ -1,23 +1,4 @@
-/*global $, window, document*/
-
-//hide navbar on scroll
-
-var zero = 0;
-
-$(document).ready(function () {
-    
-    'use strict';
-    
-    $(window).on('scroll', function () {
-        
-        $('.nav-bar').toggleClass('hide', $(window).scrollTop() > zero);
-        
-        zero = $(window).scrollTop();
-        
-    });
-    
-});
-
+/*global $, document*/
 
 
  //add active class to links
